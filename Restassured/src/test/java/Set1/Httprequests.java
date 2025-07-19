@@ -1,0 +1,20 @@
+package Set1;
+import org.testng.annotations.Test;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+
+public class Httprequests {
+	
+	@Test
+	public void getUser()
+	{
+		Response response=RestAssured.get("https://reqres.in/api/users?page=2");
+		System.out.println(response.getStatusCode());
+		System.out.println(response.getTime());
+		System.out.println(response.getBody().asString());
+}
+
+	
+
+}
