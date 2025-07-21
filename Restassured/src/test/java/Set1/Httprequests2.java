@@ -9,7 +9,7 @@ public class Httprequests2 {
 	@Test
 	public void getUser()
 	{
-		Response response1=RestAssured.get("https://reqres.in/api/users?page=2");
+		Response response=RestAssured.get("https://reqres.in/api/users?page=2");
 		Response response1=RestAssured.get("https://reqres.in/api/users?page=2");
 		Response response2=RestAssured.get("https://reqres.in/api/users?page=2");
 
