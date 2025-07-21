@@ -10,7 +10,7 @@ public class Httprequests {
 	public void getUser()
 	{
 
-		Response response100=RestAssured.get("https://reqres.in/api/users?page=2");
+		Response response300=RestAssured.get("https://reqres.in/api/users?page=2");
 
 	
 
