@@ -17,8 +17,10 @@ public class Httprequests2 {
 		System.out.println(response.getStatusCode());
 		System.out.println(response.getTime());
 		System.out.println(response.getBody().asString());
+		System.out.println(response.getBody().asString());
+	}
 }
 
 	
 
-}
+
